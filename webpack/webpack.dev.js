@@ -27,7 +27,7 @@ module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
                 '/h2-console',
                 '/auth'
             ],
-            target: `http${options.tls ? 's' : ''}://localhost:8080`,
+            target: `http${options.tls ? 's' : ''}://backend-fullstack.192.168.100.118.nip.io`,
             secure: false,
             changeOrigin: options.tls
         }],

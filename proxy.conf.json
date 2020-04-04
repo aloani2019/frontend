@@ -1,6 +1,6 @@
 {
   "*": {
-    "target": "http://localhost:8080",
+    "target": "http://backend-fullstack.192.168.100.118.nip.io",
     "secure": false,
     "loglevel": "debug"
   }
